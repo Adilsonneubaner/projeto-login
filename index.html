@@ -16,21 +16,21 @@
         <div id="conteudo">
             <div id="tela-principal">
                 <h1>Login</h1>
-                <p id="frase">Seja bem vindo(a) de novamente. Faça login para acessar as configurações no seu ambiente.</p>
+                <p id="frase">Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
-                <div class="dados">
-                    <label for="iemail"><span class="material-symbols-outlined">person</span></label>
-                    <input type="email" name="email" id="iemail" required placeholder="seu e-mail" class="dados2">
-                </div>
-
-                <div class="dados">
-                    <label for="isen"><span class="material-symbols-outlined">vpn_key</span></label>
-                    <input type="password" name="sen" id="isen" required minlength="8" maxlength="15" placeholder="sua senha" class="dados2">
-                </div>
-
-                <div>
-                    <input type="submit" value="Entrar" id="entrar">
-                </div>
+                <form action="get" autocomplete="on">
+                    <div class="dados">
+                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="email" id="iemail" required placeholder="seu e-mail" class="dados2">
+                    </div>
+                    <div class="dados">
+                        <label for="isen"><span class="material-symbols-outlined">vpn_key</span></label>
+                        <input type="password" name="sen" id="isen" required minlength="8" maxlength="15" placeholder="sua senha" class="dados2">
+                    </div>
+                    <div>
+                        <input type="submit" value="Entrar" id="entrar">
+                    </div>
+                </form>
 
                 <p id="esqueci">Esqueci a senha <span class="material-symbols-outlined">mail</span></p>
             </div>

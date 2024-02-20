@@ -2,5 +2,36 @@
 
 
 body{
-    background-color: aqua;
+    background-image: linear-gradient(to bottom, #0D0000 30%, #26211F 80% , #413d3d );
+}
+div#conteudo{
+    width: 904px;
+    height: 326px;
+    background-position: center top ;
+}
+div#tela-principal{
+    border-radius: 0px 10px 10px 0px;
+    width: 476px;
+    height: 326px;
+    margin-left: auto;
+    margin-bottom: 200px;
+    transform: translate(0%, -61.4%);
+}
+div.dados{
+    width: 455px;
+    height: 45px;
+    margin-bottom: 7px;
+}
+input.dados2{
+    width: 420px;
+    height: 40px;
+}
+input#entrar{
+    width: 455px;
+    height: 45px;
+    margin-bottom: 7px;
+}
+p#esqueci{
+    width: 455px;
+    height: 45px;
 }

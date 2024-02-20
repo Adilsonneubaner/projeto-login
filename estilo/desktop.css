@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 body{
-    background-color: blue;
+    background-image: linear-gradient(to bottom, #0D0000 30%, #26211F 80% , #413d3d );
+}
+div#conteudo{
+    width: 804px;
+    height: 286px;
+    background-position: right bottom ;
+}
+div#tela-principal{
+    border-radius: 0px 10px 10px 0px;
+    width: 603px;
+    height: 286px;
+    margin-left: auto;
+    margin-bottom: 200px;
+    transform: translate(0%, -69.9%);
+}
+div.dados{
+    width: 583px;
+}
+input.dados2{
+    width: 549px;
+}
+input#entrar{
+    width: 583px;
+}
+p#esqueci{
+    width: 583px;
 }
