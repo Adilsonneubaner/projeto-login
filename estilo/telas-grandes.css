@@ -4,6 +4,9 @@
 body{
     background-image: linear-gradient(to bottom, #0D0000 30%, #26211F 80% , #413d3d );
 }
+p#frase{
+    font-size: 1em;
+}
 div#conteudo{
     width: 904px;
     height: 326px;
